@@ -1,0 +1,265 @@
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .banner_text {
+        padding-top: 170px;
+        padding-bottom: 110px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .banner_text h2 {
+        font-size: 40px;
+    }
+
+    .banner_text h1 {
+        font-size: 58px;
+    }
+
+    .banner_text a {
+        font-size: 17px;
+        padding: 14px 37px;
+    }
+
+    #about_part {
+        padding: 50px 0px 60px 0;
+    }
+
+    .about_text_1,
+    .about_text_2,
+    .about_text_3 {
+        margin-bottom: 50px;
+    }
+
+    .section_title h2 {
+        font-size: 60px;
+    }
+
+    .section_title h2:before {
+        font-size: 38px;
+    }
+
+    .section_title p {
+        padding: 0;
+    }
+
+    #skill_part {
+        padding: 45px 0px 60px 0px;
+    }
+
+    #skill_part .section_title p {
+        margin-bottom: 60px;
+    }
+
+    .portfolio_image img {
+        width: 100%;
+    }
+
+    .html_css,
+    .web_design,
+    .ux_ui {
+        margin-top: 50px;
+    }
+
+    #portfolio_part {
+        padding: 45px 0px 65px 0px;
+    }
+
+    #portfolio_part .section_title p {
+        margin-bottom: 40px;
+    }
+
+    .portfolio_1,
+    .portfolio_2,
+    .portfolio_3,
+    .portfolio_4,
+    .portfolio_5 {
+        margin-bottom: 50px;
+    }
+
+    #contact_part {
+        padding-top: 40px;
+    }
+
+    .contact_left button {
+        margin-bottom: 30px;
+    }
+
+    .footer_left p {
+        text-align: center;
+    }
+
+    .footer_right {
+        color: ;
+        text-align: center !important;
+        margin-top: 10px;
+    }
+
+    .navbar .container {
+        padding: 0 16px;
+    }
+
+    .openNav {
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .banner_text {
+        padding-top: 170px;
+        padding-bottom: 110px;
+    }
+
+    .banner_text h2 {
+        font-size: 40px;
+    }
+
+    .banner_text h1 {
+        font-size: 58px;
+    }
+
+    .banner_text a {
+        font-size: 17px;
+        padding: 14px 37px;
+    }
+
+    #about_part {
+        padding: 50px 0px 60px 0;
+    }
+
+    .about_text_1,
+    .about_text_2,
+    .about_text_3 {
+        margin-bottom: 50px;
+    }
+
+    .section_title h2 {
+        font-size: 60px;
+    }
+
+    .section_title h2::before {
+        font-size: 38px;
+    }
+
+    .section_title p {
+        padding: 0;
+    }
+
+    #skill_part {
+        padding: 45px 0px 60px 0px;
+    }
+
+    #skill_part .section_title p {
+        margin-bottom: 60px;
+    }
+
+    .portfolio_image img {
+        width: 100%;
+    }
+
+    .web_design,
+    .ux_ui {
+        margin-top: 50px;
+    }
+
+    #portfolio_part {
+        padding: 45px 0px 65px 0px;
+    }
+
+    #portfolio_part .section_title p {
+        margin-bottom: 40px;
+    }
+
+    .portfolio_1,
+    .portfolio_2,
+    .portfolio_3,
+    .portfolio_4,
+    .portfolio_5 {
+        margin-bottom: 50px;
+    }
+
+    #contact_part {
+        padding-top: 40px;
+    }
+
+    .contact_left button {
+        margin-bottom: 30px;
+    }
+
+    .openNav {
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .banner_text {
+        padding-top: 230px;
+        padding-bottom: 200px;
+    }
+
+    .about_content .col-md-6 {
+        padding-right: 15px !important;
+    }
+
+    .portfolio_1,
+    .portfolio_2,
+    .portfolio_3,
+    .portfolio_4 {
+        margin-bottom: 85px;
+    }
+
+    .contact_left button {
+        margin-bottom: 30px;
+    }
+
+    .openNav {
+        display: block;
+    }
+
+}
+
+
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    .overlay {
+        display: none !important;
+    }
+
+}
+
+
+
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+    .overlay {
+        display: none !important;
+    }
+
+}

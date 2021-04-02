@@ -1,0 +1,598 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+--------- {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+a:hover,
+a:visited,
+a:focus {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*Typography end*/
+
+/*Menu part css start*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin-right: 34px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00aeef;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #00aeef;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    padding: 33px 0;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.menu_bg {
+    background: #101130;
+    padding: 12px 0;
+}
+
+.openNav {
+    color: white !important;
+    font-size: 22px;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 1px 14px;
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #101130;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+}
+
+.overlay_top {
+    padding: 30px 22px;
+}
+
+.closeNav {
+    color: white !important;
+    font-size: 24px;
+    position: absolute;
+    top: 25px;
+    right: 35px;
+}
+
+.overlay_content {
+    padding: 0 22px;
+}
+
+.overlay_content ul li a {
+    text-align: ;
+    -ms-flex-line-pack: ;
+    align-content: ;
+    text-align: center;
+    margin-right: 0 !important;
+    padding: 10px 0 !important;
+    font-size: 16px !important;
+}
+
+/*Menu part css end*/
+
+/*Banner part css start*/
+
+#banner_part {
+    background: url(../img/banner_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.banner_text {
+    padding-top: 250px;
+    padding-bottom: 245px;
+}
+
+.banner_text h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.banner_text h1 {
+    color: #00aeef;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.banner_text a {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: #00aeef;
+    display: inline-block;
+    padding: 16px 50px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.banner_text a:hover {
+    color: #00aeef;
+    background: white;
+}
+
+.down_button a {
+    color: white;
+    font-size: 32px;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 20px;
+    -webkit-animation-name: downButton;
+    animation-name: downButton;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes downButton {
+    0% {
+        bottom: 40px;
+    }
+
+    100% {
+        bottom: 20px;
+    }
+}
+
+@keyframes downButton {
+    0% {
+        bottom: 40px;
+    }
+
+    100% {
+        bottom: 20px;
+    }
+}
+
+/*Banner part css end*/
+
+/*About part css start*/
+
+#about_part {
+    padding: 75px 0px 95px 0;
+    overflow: hidden;
+}
+
+.section_title h2 {
+    color: #E6E5E5;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.section_title h2:before {
+    content: 'ABOUT ME';
+    position: absolute;
+    color: #00aeef;
+    font-size: 48px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.about_text h3 {
+    color: #333030;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.about_text h3:before {
+    content: '';
+    position: absolute;
+    width: 280px;
+    height: 1px;
+    background: #00aeef;
+    bottom: 0;
+    left: 0;
+}
+
+.about_text h4 {
+    color: #00aeef;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about_text p,
+.section_title p {
+    color: #333030;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.about_text_1,
+.about_text_2 {
+    margin-bottom: 50px;
+}
+
+/*About part css end*/
+
+/*Skill part css start*/
+
+#skill_part {
+    padding: 70px 0px 100px 0px;
+    background: #ececec;
+    overflow: hidden;
+}
+
+#skill_part .section_title h2 {
+    color: #DAD9D9;
+}
+
+#skill_part .section_title h2:before {
+    content: 'SKILLS';
+}
+
+#skill_part .section_title p {
+    padding: 0 19px;
+    margin-bottom: 100px;
+}
+
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 100%;
+}
+
+svg.radial-progress circle {
+    fill: rgba(0, 0, 0, 0);
+    stroke: #00ADEE;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 6px;
+}
+
+svg.radial-progress circle.incomplete {
+    opacity: 0;
+}
+
+svg.radial-progress circle.complete {
+    stroke-dasharray: 219.91148575129;
+}
+
+svg.radial-progress text {
+    fill: #636363;
+    text-anchor: middle;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.skill_details h3 {
+    color: #00aeef;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+
+/*Skill part css end*/
+
+/*Portfolio part css start*/
+
+#portfolio_part {
+    padding: 75px 0px 105px 0px;
+    overflow: hidden;
+}
+
+#portfolio_part .section_title h2:before {
+    content: 'PORTFOLIO';
+}
+
+#portfolio_part .section_title p {
+    margin-bottom: 75px;
+}
+
+.portfolio_text {
+    background: #ececec;
+    padding: 32px 0;
+}
+
+.portfolio_text h3 {
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.portfolio_text h6 {
+    color: #3d3d3d;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.portfolio_1,
+.portfolio_2,
+.portfolio_3 {
+    margin-bottom: 85px;
+}
+
+/*Portfolio part css end*/
+
+/*Contact part css start*/
+
+#contact_part {
+    background: #484646;
+    padding-top: 90px;
+    padding-bottom: 47px;
+    overflow: hidden;
+}
+
+#contact_part .section_title h2 {
+    color: #555353;
+}
+
+#contact_part .section_title h2:before {
+    content: 'CONTACT';
+}
+
+#contact_part .section_title p {
+    color: #ececec;
+    padding: 0 13px;
+    margin-bottom: 45px;
+}
+
+.same_contact_field {
+    background: #ececec;
+    color: #696767;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0;
+    margin-bottom: 20px;
+    border: none;
+    padding: 30px 28px;
+}
+
+#contact_part form ::-webkit-input-placeholder {
+    color: #696767;
+}
+
+#contact_part form ::-moz-placeholder {
+    color: #696767;
+}
+
+#contact_part form :-ms-input-placeholder {
+    color: #696767;
+}
+
+#contact_part form ::-ms-input-placeholder {
+    color: #696767;
+}
+
+#contact_part form ::placeholder {
+    color: #696767;
+}
+
+.same_contact_field:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #ececec;
+    color: #696767;
+}
+
+.contact_left button {
+    color: #ececec;
+    font-size: 14px;
+    font-weight: 700;
+    background: #00aeef;
+    border: none;
+    width: 100%;
+    padding: 20px 0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.contact_left button:hover {
+    color: #00aeef;
+    background: white;
+}
+
+#message_box {
+    padding: 18px 28px 35px 28px;
+    margin-bottom: 0;
+    resize: none;
+}
+
+/*Contact part css end*/
+
+/*Footer part css start*/
+
+#footer_part {
+    background: #00aeef;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+.footer_left p {
+    color: #ececec;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 9px 0;
+}
+
+.footer_right a {
+    color: white;
+    background: #00acee;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 8px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.footer_right a:nth-child(2) {
+    background: #3B5998;
+}
+
+.footer_right a:nth-child(3) {
+    background: #CB2028;
+}
+
+.footer_right a:last-child {
+    background: #DA2713;
+    margin-right: 0;
+}
+
+.footer_right a:hover {
+    background: #222222;
+}
+
+/*Footer part css end*/
+
+/*Scroll to top css start*/
+
+.scroll_to_top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    color: #8a7dbd;
+    border: 2px solid #8a7dbd;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 37px;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+/*Scroll to top css end*/
+
+/*Preloader css start*/
+
+.preloader {
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: fixed;
+    z-index: 99999;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.spinner {
+    width: 70px;
+    height: 70px;
+    background-color: #00aeef;
+    border-radius: 100%;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+    0% {
+        -webkit-transform: scale(0)
+    }
+
+    100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-scaleout {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+/*Preloader css end*/
